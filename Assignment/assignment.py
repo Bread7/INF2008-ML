@@ -36,6 +36,7 @@ plt.show()
 #   A.0 Normalization (2 marks)
 #
 x_train_copy = x_train
+y_train_copy = y_train
 mean_x_train = np.mean(x_train_copy, axis=0)
 std_x_train = np.std(x_train_copy, axis=0)
 
@@ -175,16 +176,16 @@ class Perceptron:
                 self.bias += learning_rate * errors
 
     def step_function(self, net_input):
-        return np.where(net_input >= 0, 1, 0)
+        return np.where(net_input > 0, 1, 0)
 
 perceptron = Perceptron()
 
 # Train perceptron
-perceptron.train(x_train, y_train, learning_rate=0.01, epochs=1000)
+perceptron.train(x_train_copy, y_train_copy, learning_rate=0.01, epochs=1000)
 
 # Make predictions
-predictions = perceptron.predict(x_train)
-print("predictions = ", predictions)
+predictions = perceptron.predict(x_train_copy)
+# print("predictions = ", predictions)
 correct = (predictions.flatten() == y_train).sum().item()
 # correct = (predictions == y_train).sum().item()
 print(correct / y_train.shape[0])
