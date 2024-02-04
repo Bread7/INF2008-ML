@@ -3,6 +3,7 @@
 ## ML Cheatsheet
 
     https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html
+    https://christophm.github.io/interpretable-ml-book/tree.html
 
 ## Using Python with Pandas and done on Google Colab
 
@@ -10,6 +11,14 @@
 
     https://www.ibm.com/topics/gradient-descent
     https://induraj2020.medium.com/implementing-gradient-descent-in-python-d1c6aeb9a448
+    
+### Topic 5 - Decision Tree
+
+    Processes in Decision Tree - https://towardsdatascience.com/decision-trees-explained-entropy-information-gain-gini-index-ccp-pruning-4d78070db36c
+    Another implementation - https://towardsdatascience.com/decision-tree-in-machine-learning-e380942a4c96
+    Another implementation - https://medium.com/@enozeren/building-a-decision-tree-from-scratch-324b9a5ed836
+    Entropy calculations - https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8
+    
 
 ## Assignment 1
 
