@@ -18,7 +18,22 @@
     Another implementation - https://towardsdatascience.com/decision-tree-in-machine-learning-e380942a4c96
     Another implementation - https://medium.com/@enozeren/building-a-decision-tree-from-scratch-324b9a5ed836
     Entropy calculations - https://towardsdatascience.com/entropy-how-decision-trees-make-decisions-2946b9c18c8
+
+    Logistic Regression - https://towardsdatascience.com/understanding-logistic-regression-9b02c2aec102
+
+### Topic 6 - Types and Model Metric
+
+    Accuracy Fallacy - https://medium.com/analytics-vidhya/accuracy-fallacy-in-credit-card-fraud-detection-146abafb54bfA
+    Understanding Area Under ROC Curve - https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5
+    Understanding Confusion Matrix - https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
+
+
+### Topic 7 - Ensemble
     
+    Bootstrap sampling - https://medium.com/analytics-vidhya/what-is-bootstrap-sampling-in-statistics-and-machine-learning-4bb510fa4a8c
+    Implementing bagging - https://www.simplilearn.com/tutorials/machine-learning-tutorial/bagging-in-machine-learning
+    Adaptive Boosting (AdaBoost) - https://medium.com/@datasciencewizards/understanding-the-adaboost-algorithm-2e9344d83d9b
+
 
 ## Assignment 1
 
